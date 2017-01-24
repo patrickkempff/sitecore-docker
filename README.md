@@ -10,13 +10,13 @@ An out-of-the-box Sitecore website using Docker. The easiest way it to use docke
 
 First clone the repo:
 
-	git clone git@github.com:Redhotminute/docker-sitecore
+	git clone git@github.com:PatrickKempff/docker-sitecore
 
 * [Download the Sitecore distribution](https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/82/Sitecore_Experience_Platform_82_Update2.aspx) (developer account needed)
 * Unzip and copy the Sitecore files into the sitecore folder.
 * Copy your license.xml into sitecore/Data
-* Copy web/ConnectionString.config into Sitecore/Website/App_Config
-* Copy web/z.DockerConfig.config into Sitecore/Website/App_Config/Include
+* Copy web/ConnectionString.config into sitecore/Website/App_Config
+* Copy web/z.DockerConfig.config into sitecore/Website/App_Config/Include
 
 ## Usage
 Run docker-compose in your cli:
